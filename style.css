@@ -1,0 +1,108 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    height: 100%;
+    font-family: helvetica;
+  }
+  
+  a {
+    color:white;
+  }
+  
+  header {
+    padding: 10px;
+    border:20px;
+    border-color:plum;
+    background: darkslateblue;
+    color:goldenrod ;
+    text-align: center;
+  }
+  
+  nav {
+    width: 200px;
+    height: 100%;
+    float: left; /* don't modify */
+    background-color: purple;
+    margin-right: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-bottom: 10px;
+  }
+  
+  section {
+    width: 500px;
+    float: left; /* don't modify */
+    padding: 5px;
+    border-block-start-color: bisque;
+  }
+  
+  footer {
+    clear: left; /* don't modify */
+    padding: 10px;
+    background:purple;
+    text-align:left ;
+  }
+  
+
+  p {
+      color: yellow;
+      font-size: 40px;
+  }
+  h1{
+      color: goldenrod;
+  }
+  
+  body{
+      background-color: purple;
+  }
+  
+  p{
+      color:white;
+      font-size:24px;
+  }
+  
+header h3{
+    color:white;
+}
+
+  #oliver{
+      height: 250px;
+      width: 300px;
+      padding: 200px;
+  }
+
+section h1{
+    color:white;
+}
+
+section h3{
+    color:white;
+}
+
+h2{
+    color:goldenrod;
+}
+
+a{
+    color:gold;
+}
+
+section article{
+    color:white;
+}
+
+.rotateimg90 {
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
